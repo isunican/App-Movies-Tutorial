@@ -231,7 +231,7 @@ La pantalla de configuración contiene 3 items para configurar qué información
 
 <img src="./img/settings.png" width="200"><p>
 
-Los elementos de esta pantalla están definidos en el fichero `res/xml/preferences.xml`. Para ver cómo se intancia este menú de configuración, se puede consultar el código de la actividad `SettingsActivity`.
+Los elementos de esta pantalla están definidos en el fichero `res/xml/preferences.xml`. Para ver cómo se instancia este menú de configuración, se puede consultar el código de la actividad `SettingsActivity`.
 
 La información de esta pantalla de configuración es almacenada y persistida automáticamente por Android. Se puede acceder programáticamente a este información mediante el objeto `SharedPreferences`:
 
@@ -267,6 +267,3 @@ Estas son algunas sugerencias de funcionalidades adicionales que se pueden inclu
     - Para obtener los posters de las películas se puede utilizar [https://www.movieposterdb.com/](https://www.movieposterdb.com/)
 
 - Hacer que la función de filtrado no busque sólo con el título de las películas
-
-
-
